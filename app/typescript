@@ -1,0 +1,627 @@
+Script started on Thu Dec  4 20:54:29 2014
+[1m[7m%[27m[1m[0m                                                                                                                                            ]2;jonathan@haven: /Library/WebServer/Documents/app]1;..Documents/app[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app | 140x103 | ttys001[35m/Library/WebServer/Documents/app[32m[1746]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 8:54PM
+[0m>[K[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app | 140x103 | ttys001[35m/Library/WebServer/Documents/app[32m[1746]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 8:54PM
+[0m>[Ksscripts[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app | 140x103 | ttys001[35m/Library/WebServer/Documents/app[32m[1746]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 8:54PM
+[0m>scripts[K
+]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                                                                            ]2;jonathan@haven: /Library/WebServer/Documents/app/scripts]1;..s/app/scripts[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app/scripts | 140x103 | ttys001[35m/Library/WebServer/Documents/app/scripts[32m[1747]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 8:54PM
+[0m>[K[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app/scripts | 140x103 | ttys001[35m/Library/WebServer/Documents/app/scripts[32m[1747]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 8:54PM
+[0m>[Klls[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app/scripts | 140x103 | ttys001[35m/Library/WebServer/Documents/app/scripts[32m[1747]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 8:54PM
+[0m>ls[K
+]2;ls -FA]1;ls_bower.js    app.js       [1m[36mcontrollers[39;49m[0m/
+[1m[7m%[27m[1m[0m                                                                                                                                            ]2;jonathan@haven: /Library/WebServer/Documents/app/scripts]1;..s/app/scripts[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app/scripts | 140x103 | ttys001[35m/Library/WebServer/Documents/app/scripts[32m[1748]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 8:54PM
+[0m>[K[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app/scripts | 140x103 | ttys001[35m/Library/WebServer/Documents/app/scripts[32m[1748]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 8:54PM
+[0m>[Kccdc cp _bower.js   .js _bower.min.js[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app/scripts | 140x103 | ttys001[35m/Library/WebServer/Documents/app/scripts[32m[1748]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 8:54PM
+[0m>cp _bower.js _bower.min.js[K
+]2;cp _bower.js _bower.min.js]1;cp[1m[7m%[27m[1m[0m                                                                                                                                            ]2;jonathan@haven: /Library/WebServer/Documents/app/scripts]1;..s/app/scripts[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app/scripts | 140x103 | ttys001[35m/Library/WebServer/Documents/app/scripts[32m[1749]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 8:54PM
+[0m>[K[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app/scripts | 140x103 | ttys001[35m/Library/WebServer/Documents/app/scripts[32m[1749]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 8:54PM
+[0m>[Klls[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app/scripts | 140x103 | ttys001[35m/Library/WebServer/Documents/app/scripts[32m[1749]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 8:54PM
+[0m>ls[K
+]2;ls -FA]1;ls_bower.js      _bower.min.js  app.js         [1m[36mcontrollers[39;49m[0m/
+[1m[7m%[27m[1m[0m                                                                                                                                            ]2;jonathan@haven: /Library/WebServer/Documents/app/scripts]1;..s/app/scripts[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app/scripts | 140x103 | ttys001[35m/Library/WebServer/Documents/app/scripts[32m[1750]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 8:54PM
+[0m>[K[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app/scripts | 140x103 | ttys001[35m/Library/WebServer/Documents/app/scripts[32m[1750]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 8:54PM
+[0m>[Klscp _bower.js _bower.min.js[26Dls                        [24Dscriptsls     cp _bower.js _bower.min.js[26Dls                        [24Dscripts grunt uglify[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app/scripts | 140x103 | ttys001[35m/Library/WebServer/Documents/app/scripts[32m[1750]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 8:55PM
+[0m>grunt uglify[K
+]2;grunt uglify]1;grunt[4mRunning "uglify:bower" (uglify) task[24m
+
+[4mRunning "uglify:files" (uglify) task[24m
+
+[32mDone, without errors.[39m
+
+
+[4mExecution Time[24m[90m (2014-12-05 03:55:39 UTC)[39m
+loading tasks  [34m12ms[39m  [34m▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 67%[39m
+uglify:bower    [34m3ms[39m  [34m▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 17%[39m
+uglify:files    [34m2ms[39m  [34m▇▇▇▇▇▇▇▇▇▇▇▇ 11%[39m
+[34m[1mTotal 18ms[22m[39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                            ]2;jonathan@haven: /Library/WebServer/Documents/app/scripts]1;..s/app/scripts[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app/scripts | 140x103 | ttys001[35m/Library/WebServer/Documents/app/scripts[32m[1751]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 8:55PM
+[0m>[K[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app/scripts | 140x103 | ttys001[35m/Library/WebServer/Documents/app/scripts[32m[1751]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 8:55PM
+[0m>[Klls[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app/scripts | 140x103 | ttys001[35m/Library/WebServer/Documents/app/scripts[32m[1751]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 8:55PM
+[0m>ls[K
+]2;ls -FA]1;ls_bower.js      _bower.min.js  app.js         [1m[36mcontrollers[39;49m[0m/
+[1m[7m%[27m[1m[0m                                                                                                                                            ]2;jonathan@haven: /Library/WebServer/Documents/app/scripts]1;..s/app/scripts[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app/scripts | 140x103 | ttys001[35m/Library/WebServer/Documents/app/scripts[32m[1752]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 8:55PM
+[0m>[K[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app/scripts | 140x103 | ttys001[35m/Library/WebServer/Documents/app/scripts[32m[1752]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 8:55PM
+[0m>[Kaaaa  lsgrunt uglify[12Dls          [10Dcp _bower.js _bower.min.js[26Dls                        [24Dscripts grunt uglify[12Dbower[7C[12Dgrunt buildbower[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app/scripts | 140x103 | ttys001[35m/Library/WebServer/Documents/app/scripts[32m[1752]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:00PM
+[0m>grunt buildbower[K
+]2;grunt buildbower]1;grunt[4mRunning "bower_concat:all" (bower_concat) task[24m
+File [36mapp/scripts/_bower.js[39m created.
+
+[4mRunning "uglify:bower" (uglify) task[24m
+WARN: Dropping unused variable arg [_bower.js:49,39]
+WARN: Dropping unused function argument elementTransclusion [_bower.js:7018,85]
+WARN: Dropping unused function argument boundTranscludeFn [_bower.js:8214,27]
+WARN: Dropping unused function argument rootElement [_bower.js:8213,16]
+WARN: Dropping unused function argument nodeList [_bower.js:8212,17]
+WARN: Dropping unused function argument scope [_bower.js:8211,22]
+WARN: Dropping unused function argument boundTranscludeFn [_bower.js:8222,27]
+WARN: Dropping unused function argument rootElement [_bower.js:8221,16]
+WARN: Dropping unused function argument node [_bower.js:8220,13]
+WARN: Dropping unused function argument scope [_bower.js:8219,22]
+WARN: Dropping unused function argument nodesetLinkingFn [_bower.js:8218,25]
+WARN: Dropping unused function argument cause [_bower.js:8478,31]
+WARN: Dropping unused function argument exception [_bower.js:8478,20]
+WARN: Dropping unused function argument names [_bower.js:9457,32]
+WARN: Dropping unused function argument name [_bower.js:9469,40]
+WARN: Dropping unused function argument relHref [_bower.js:10644,38]
+WARN: Dropping unused function argument scope [_bower.js:12720,47]
+WARN: Dropping unused function argument old [_bower.js:12720,42]
+WARN: Dropping unused function argument value [_bower.js:12720,35]
+WARN: Dropping unused variable logMsg [_bower.js:14085,20]
+WARN: Dropping unused function argument args [_bower.js:14505,28]
+WARN: Dropping unused function argument args [_bower.js:14577,33]
+WARN: Dropping unused function argument html [_bower.js:14954,47]
+WARN: Dropping unused function argument data [_bower.js:19476,44]
+WARN: Dropping unused function argument value [_bower.js:21944,40]
+WARN: Dropping unused function argument options [_bower.js:4640,31]
+WARN: Dropping unused function argument newValue [_bower.js:20287,36]
+WARN: Dropping unused function argument error [_bower.js:20633,20]
+WARN: Dropping unused function argument ev [_bower.js:21063,38]
+WARN: Dropping unused function includes [_bower.js:695,9]
+WARN: Dropping unused function nodesetLinkingFn [_bower.js:8210,9]
+WARN: Dropping unused function directiveLinkingFn [_bower.js:8217,9]
+WARN: Side effects in initialization of unused variable a [_bower.js:26359,12]
+WARN: Dropping unused function argument e [_bower.js:27291,43]
+WARN: Dropping unused function argument oldVal [_bower.js:26412,22]
+WARN: Side effects in initialization of unused variable animationDelayStyle [_bower.js:27631,18]
+WARN: Dropping unused function argument pos [_bower.js:28170,49]
+WARN: Dropping unused function argument attr [_bower.js:28246,31]
+WARN: Dropping unused function argument ngMessages [_bower.js:28364,38]
+WARN: Dropping unused function argument attr [_bower.js:28364,32]
+WARN: Dropping unused function argument undefined [_bower.js:28060,27]
+WARN: Dropping unused function argument now [_bower.js:28971,27]
+WARN: Dropping unused function argument undefined [_bower.js:28589,27]
+WARN: Dropping unused function argument $browser [_bower.js:29777,81]
+WARN: Dropping unused function argument $delegate [_bower.js:30771,62]
+WARN: Dropping unused function createMockXhr [_bower.js:30638,9]
+WARN: Dropping unused function argument path [_bower.js:32672,46]
+WARN: Dropping unused function argument undefined [_bower.js:32039,27]
+WARN: Dropping unused function argument undefined [_bower.js:33036,27]
+WARN: Dropping unused variable arg [_bower.js:42950,39]
+WARN: Dropping unused function argument elementTransclusion [_bower.js:49919,85]
+WARN: Dropping unused function argument boundTranscludeFn [_bower.js:51115,27]
+WARN: Dropping unused function argument rootElement [_bower.js:51114,16]
+WARN: Dropping unused function argument nodeList [_bower.js:51113,17]
+WARN: Dropping unused function argument scope [_bower.js:51112,22]
+WARN: Dropping unused function argument boundTranscludeFn [_bower.js:51123,27]
+WARN: Dropping unused function argument rootElement [_bower.js:51122,16]
+WARN: Dropping unused function argument node [_bower.js:51121,13]
+WARN: Dropping unused function argument scope [_bower.js:51120,22]
+WARN: Dropping unused function argument nodesetLinkingFn [_bower.js:51119,25]
+WARN: Dropping unused function argument cause [_bower.js:51379,31]
+WARN: Dropping unused function argument exception [_bower.js:51379,20]
+WARN: Dropping unused function argument names [_bower.js:52358,32]
+WARN: Dropping unused function argument name [_bower.js:52370,40]
+WARN: Dropping unused function argument relHref [_bower.js:53545,38]
+WARN: Dropping unused function argument scope [_bower.js:55621,47]
+WARN: Dropping unused function argument old [_bower.js:55621,42]
+WARN: Dropping unused function argument value [_bower.js:55621,35]
+WARN: Dropping unused variable logMsg [_bower.js:56986,20]
+WARN: Dropping unused function argument args [_bower.js:57406,28]
+WARN: Dropping unused function argument args [_bower.js:57478,33]
+WARN: Dropping unused function argument html [_bower.js:57855,47]
+WARN: Dropping unused function argument data [_bower.js:62377,44]
+WARN: Dropping unused function argument value [_bower.js:64845,40]
+WARN: Dropping unused function argument options [_bower.js:47541,31]
+WARN: Dropping unused function argument newValue [_bower.js:63188,36]
+WARN: Dropping unused function argument error [_bower.js:63534,20]
+WARN: Dropping unused function argument ev [_bower.js:63964,38]
+WARN: Dropping unused function argument $provide [_bower.js:69312,65]
+WARN: Dropping unused function argument body [_bower.js:69477,57]
+WARN: Dropping unused function argument name [_bower.js:69477,51]
+WARN: Dropping unused function argument index [_bower.js:70176,73]
+WARN: Dropping unused function nodesetLinkingFn [_bower.js:51111,9]
+WARN: Dropping unused function directiveLinkingFn [_bower.js:51118,9]
+WARN: Dropping unused function argument oldValue [_bower.js:82845,61]
+WARN: Dropping unused function argument oldValue [_bower.js:82851,70]
+WARN: Dropping unused function argument transclusion [_bower.js:82835,52]
+WARN: Side effects in initialization of unused variable requestAnimationFrame [_bower.js:82830,8]
+WARN: Dropping unused function argument oldValue [_bower.js:82934,61]
+WARN: Dropping unused function argument oldValue [_bower.js:82940,70]
+WARN: Dropping unused function argument transclusion [_bower.js:82925,52]
+WARN: Side effects in initialization of unused variable requestAnimationFrame [_bower.js:82920,8]
+WARN: Dropping unused function argument oldValue [_bower.js:83040,56]
+WARN: Dropping unused function argument newValue [_bower.js:83040,46]
+WARN: Side effects in initialization of unused variable defaults [_bower.js:83194,8]
+WARN: Side effects in initialization of unused variable ngModelCtrl [_bower.js:83233,12]
+WARN: Side effects in initialization of unused variable ngModelCtrl [_bower.js:83259,12]
+WARN: Side effects in initialization of unused variable bodyEl [_bower.js:83331,10]
+WARN: Dropping unused function argument oldValue [_bower.js:83558,68]
+WARN: Dropping unused function argument oldValue [_bower.js:83591,54]
+WARN: Dropping unused function argument newValue [_bower.js:83591,44]
+WARN: Side effects in initialization of unused variable defaults [_bower.js:83543,8]
+WARN: Dropping unused function argument force [_bower.js:83814,35]
+WARN: Side effects in initialization of unused variable firstMonth [_bower.js:83824,18]
+WARN: Side effects in initialization of unused variable timezoneOffset [_bower.js:83740,12]
+WARN: Side effects in initialization of unused variable defaults [_bower.js:83702,8]
+WARN: Side effects in initialization of unused variable scope [_bower.js:83944,12]
+WARN: Dropping unused function argument oldValue [_bower.js:84032,76]
+WARN: Dropping unused function argument oldValue [_bower.js:84037,68]
+WARN: Dropping unused function argument transclusion [_bower.js:84023,52]
+WARN: Dropping unused function argument lang [_bower.js:84074,46]
+WARN: Dropping unused function argument lang [_bower.js:84078,34]
+WARN: Dropping unused function argument lang [_bower.js:84106,45]
+WARN: Dropping unused function argument $localeProvider [_bower.js:84115,54]
+WARN: Dropping unused function argument $window [_bower.js:84428,70]
+WARN: Dropping unused function argument $document [_bower.js:84428,59]
+WARN: Side effects in initialization of unused variable jqLite [_bower.js:84430,8]
+WARN: Dropping unused function argument scope [_bower.js:84834,86]
+WARN: Dropping unused function argument clonedElement [_bower.js:84834,71]
+WARN: Dropping unused function argument dimensions [_bower.js:84718,226]
+WARN: Dropping unused function argument oldValue [_bower.js:84994,61]
+WARN: Dropping unused function argument oldValue [_bower.js:85000,70]
+WARN: Dropping unused function argument transclusion [_bower.js:84984,52]
+WARN: Dropping unused function argument oldValue [_bower.js:85062,30]
+WARN: Dropping unused function argument controller [_bower.js:85049,52]
+WARN: Dropping unused function argument oldValue [_bower.js:85175,68]
+WARN: Dropping unused function argument attr [_bower.js:85438,42]
+WARN: Dropping unused function argument $scrollspy [_bower.js:85434,130]
+WARN: Dropping unused function argument dimensions [_bower.js:85434,118]
+WARN: Dropping unused function argument debounce [_bower.js:85434,108]
+WARN: Dropping unused function argument $rootScope [_bower.js:85434,96]
+WARN: Dropping unused function argument evt [_bower.js:85504,40]
+WARN: Side effects in initialization of unused variable bodyEl [_bower.js:85478,10]
+WARN: Dropping unused function argument oldValue [_bower.js:85709,56]
+WARN: Dropping unused function argument newValue [_bower.js:85709,46]
+WARN: Dropping unused function argument oldValue [_bower.js:85719,54]
+WARN: Dropping unused function argument newValue [_bower.js:85719,44]
+WARN: Dropping unused function argument oldValue [_bower.js:85887,62]
+WARN: Dropping unused function argument oldValue [_bower.js:85910,51]
+WARN: Side effects in initialization of unused variable ngModelCtrl [_bower.js:85903,12]
+WARN: Side effects in initialization of unused variable hoursLength [_bower.js:86116,42]
+WARN: Side effects in initialization of unused variable minutesLength [_bower.js:86117,46]
+WARN: Side effects in initialization of unused variable bodyEl [_bower.js:85979,10]
+WARN: Dropping unused function argument oldValue [_bower.js:86295,68]
+WARN: Dropping unused function argument oldValue [_bower.js:86325,54]
+WARN: Dropping unused function argument newValue [_bower.js:86325,44]
+WARN: Side effects in initialization of unused variable requestAnimationFrame [_bower.js:86281,8]
+WARN: Dropping unused function argument scope [_bower.js:86610,87]
+WARN: Dropping unused function argument clonedElement [_bower.js:86610,72]
+WARN: Dropping unused function argument oldValue [_bower.js:87002,68]
+WARN: Dropping unused function argument oldValue [_bower.js:87009,74]
+WARN: Dropping unused function argument transclusion [_bower.js:86964,52]
+WARN: Dropping unused function argument evt [_bower.js:87080,40]
+WARN: Side effects in initialization of unused variable bodyEl [_bower.js:87055,10]
+WARN: Dropping unused function argument oldValue [_bower.js:87229,59]
+WARN: Dropping unused function argument newValue [_bower.js:87229,49]
+WARN: Dropping unused function argument oldValue [_bower.js:87239,54]
+WARN: Dropping unused function argument undefined [_bower.js:87299,28]
+WARN: Dropping unused function argument document [_bower.js:87299,18]
+WARN: Dropping unused function argument window [_bower.js:87299,10]
+WARN: Dropping unused function argument event [_bower.js:87977,34]
+WARN: Dropping unused function argument event [_bower.js:87981,27]
+WARN: Dropping unused function argument event [_bower.js:87804,37]
+WARN: Dropping unused function argument event [_bower.js:87808,39]
+WARN: Dropping unused function argument event [_bower.js:87843,31]
+WARN: Dropping unused function argument event [_bower.js:87857,37]
+WARN: Dropping unused function argument event [_bower.js:87861,45]
+WARN: Dropping unused function argument undefined [_bower.js:87387,27]
+WARN: Dropping unused function argument b [_bower.js:88044,72]
+WARN: Dropping unused function argument deleteCount [_bower.js:88468,35]
+WARN: Dropping unused function argument start [_bower.js:88468,28]
+WARN: Dropping unused function argument key [_bower.js:88993,44]
+WARN: Dropping unused function argument c [_bower.js:89551,400]
+WARN: Dropping unused function argument b [_bower.js:89551,398]
+WARN: Dropping unused function argument c [_bower.js:89552,16]
+WARN: Dropping unused function argument c [_bower.js:89552,288]
+WARN: Dropping unused function argument b [_bower.js:89552,286]
+WARN: Dropping unused function argument a [_bower.js:89552,284]
+WARN: Dropping unused function argument b [_bower.js:89553,14]
+WARN: Dropping unused function argument f [_bower.js:89553,300]
+WARN: Dropping unused function argument d [_bower.js:89561,352]
+WARN: Dropping unused function argument c [_bower.js:89561,350]
+WARN: Dropping unused function argument b [_bower.js:89561,348]
+WARN: Dropping unused function argument a [_bower.js:89566,12]
+WARN: Dropping unused function argument a [_bower.js:89566,214]
+WARN: Dropping unused function argument a [_bower.js:89567,12]
+WARN: Dropping unused function argument a [_bower.js:89567,187]
+WARN: Dropping unused function argument a [_bower.js:89567,273]
+WARN: Dropping unused function argument b [_bower.js:89574,238]
+WARN: Dropping unused function argument b [_bower.js:89640,14]
+WARN: Dropping unused function argument b [_bower.js:89636,414]
+WARN: Dropping unused function argument l [_bower.js:89646,246]
+WARN: Dropping unused function argument k [_bower.js:89646,244]
+WARN: Boolean && always false [_bower.js:89648,481]
+WARN: Dropping unused function argument a [_bower.js:89758,321]
+File [36mapp/scripts/_bower.min.js[39m created: [32m3.29 MB[39m → [32m820.35 kB[39m
+
+[32mDone, without errors.[39m
+
+
+[4mExecution Time[24m[90m (2014-12-05 04:00:14 UTC)[39m
+bower_concat:all  [34m566ms[39m  [34m▇▇▇▇▇▇▇ 6%[39m
+uglify:bower       [34m8.2s[39m  [34m▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%[39m
+[34m[1mTotal 8.8s[22m[39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                            ]2;jonathan@haven: /Library/WebServer/Documents/app/scripts]1;..s/app/scripts[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app/scripts | 140x103 | ttys001[35m/Library/WebServer/Documents/app/scripts[32m[1753]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:00PM
+[0m>[K[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app/scripts | 140x103 | ttys001[35m/Library/WebServer/Documents/app/scripts[32m[1753]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:00PM
+[0m>[Kgrunt buildbower[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app/scripts | 140x103 | ttys001[35m/Library/WebServer/Documents/app/scripts[32m[1753]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:01PM
+[0m>grunt buildbower[K
+]2;grunt buildbower]1;grunt[4mRunning "bower_concat:all" (bower_concat) task[24m
+File [36mapp/scripts/_bower.js[39m created.
+
+[4mRunning "uglify:bower" (uglify) task[24m
+WARN: Dropping unused variable arg [_bower.js:49,39]
+WARN: Dropping unused function argument elementTransclusion [_bower.js:7018,85]
+WARN: Dropping unused function argument boundTranscludeFn [_bower.js:8214,27]
+WARN: Dropping unused function argument rootElement [_bower.js:8213,16]
+WARN: Dropping unused function argument nodeList [_bower.js:8212,17]
+WARN: Dropping unused function argument scope [_bower.js:8211,22]
+WARN: Dropping unused function argument boundTranscludeFn [_bower.js:8222,27]
+WARN: Dropping unused function argument rootElement [_bower.js:8221,16]
+WARN: Dropping unused function argument node [_bower.js:8220,13]
+WARN: Dropping unused function argument scope [_bower.js:8219,22]
+WARN: Dropping unused function argument nodesetLinkingFn [_bower.js:8218,25]
+WARN: Dropping unused function argument cause [_bower.js:8478,31]
+WARN: Dropping unused function argument exception [_bower.js:8478,20]
+WARN: Dropping unused function argument names [_bower.js:9457,32]
+WARN: Dropping unused function argument name [_bower.js:9469,40]
+WARN: Dropping unused function argument relHref [_bower.js:10644,38]
+WARN: Dropping unused function argument scope [_bower.js:12720,47]
+WARN: Dropping unused function argument old [_bower.js:12720,42]
+WARN: Dropping unused function argument value [_bower.js:12720,35]
+WARN: Dropping unused variable logMsg [_bower.js:14085,20]
+WARN: Dropping unused function argument args [_bower.js:14505,28]
+WARN: Dropping unused function argument args [_bower.js:14577,33]
+WARN: Dropping unused function argument html [_bower.js:14954,47]
+WARN: Dropping unused function argument data [_bower.js:19476,44]
+WARN: Dropping unused function argument value [_bower.js:21944,40]
+WARN: Dropping unused function argument options [_bower.js:4640,31]
+WARN: Dropping unused function argument newValue [_bower.js:20287,36]
+WARN: Dropping unused function argument error [_bower.js:20633,20]
+WARN: Dropping unused function argument ev [_bower.js:21063,38]
+WARN: Dropping unused function includes [_bower.js:695,9]
+WARN: Dropping unused function nodesetLinkingFn [_bower.js:8210,9]
+WARN: Dropping unused function directiveLinkingFn [_bower.js:8217,9]
+WARN: Side effects in initialization of unused variable a [_bower.js:26359,12]
+WARN: Dropping unused function argument e [_bower.js:27291,43]
+WARN: Dropping unused function argument oldVal [_bower.js:26412,22]
+WARN: Side effects in initialization of unused variable animationDelayStyle [_bower.js:27631,18]
+WARN: Dropping unused function argument pos [_bower.js:28170,49]
+WARN: Dropping unused function argument attr [_bower.js:28246,31]
+WARN: Dropping unused function argument ngMessages [_bower.js:28364,38]
+WARN: Dropping unused function argument attr [_bower.js:28364,32]
+WARN: Dropping unused function argument undefined [_bower.js:28060,27]
+WARN: Dropping unused function argument now [_bower.js:28971,27]
+WARN: Dropping unused function argument undefined [_bower.js:28589,27]
+WARN: Dropping unused function argument $browser [_bower.js:29777,81]
+WARN: Dropping unused function argument $delegate [_bower.js:30771,62]
+WARN: Dropping unused function createMockXhr [_bower.js:30638,9]
+WARN: Dropping unused function argument path [_bower.js:32672,46]
+WARN: Dropping unused function argument undefined [_bower.js:32039,27]
+WARN: Dropping unused function argument undefined [_bower.js:33036,27]
+WARN: Dropping unused variable arg [_bower.js:42950,39]
+WARN: Dropping unused function argument elementTransclusion [_bower.js:49919,85]
+WARN: Dropping unused function argument boundTranscludeFn [_bower.js:51115,27]
+WARN: Dropping unused function argument rootElement [_bower.js:51114,16]
+WARN: Dropping unused function argument nodeList [_bower.js:51113,17]
+WARN: Dropping unused function argument scope [_bower.js:51112,22]
+WARN: Dropping unused function argument boundTranscludeFn [_bower.js:51123,27]
+WARN: Dropping unused function argument rootElement [_bower.js:51122,16]
+WARN: Dropping unused function argument node [_bower.js:51121,13]
+WARN: Dropping unused function argument scope [_bower.js:51120,22]
+WARN: Dropping unused function argument nodesetLinkingFn [_bower.js:51119,25]
+WARN: Dropping unused function argument cause [_bower.js:51379,31]
+WARN: Dropping unused function argument exception [_bower.js:51379,20]
+WARN: Dropping unused function argument names [_bower.js:52358,32]
+WARN: Dropping unused function argument name [_bower.js:52370,40]
+WARN: Dropping unused function argument relHref [_bower.js:53545,38]
+WARN: Dropping unused function argument scope [_bower.js:55621,47]
+WARN: Dropping unused function argument old [_bower.js:55621,42]
+WARN: Dropping unused function argument value [_bower.js:55621,35]
+WARN: Dropping unused variable logMsg [_bower.js:56986,20]
+WARN: Dropping unused function argument args [_bower.js:57406,28]
+WARN: Dropping unused function argument args [_bower.js:57478,33]
+WARN: Dropping unused function argument html [_bower.js:57855,47]
+WARN: Dropping unused function argument data [_bower.js:62377,44]
+WARN: Dropping unused function argument value [_bower.js:64845,40]
+WARN: Dropping unused function argument options [_bower.js:47541,31]
+WARN: Dropping unused function argument newValue [_bower.js:63188,36]
+WARN: Dropping unused function argument error [_bower.js:63534,20]
+WARN: Dropping unused function argument ev [_bower.js:63964,38]
+WARN: Dropping unused function argument $provide [_bower.js:69312,65]
+WARN: Dropping unused function argument body [_bower.js:69477,57]
+WARN: Dropping unused function argument name [_bower.js:69477,51]
+WARN: Dropping unused function argument index [_bower.js:70176,73]
+WARN: Dropping unused function nodesetLinkingFn [_bower.js:51111,9]
+WARN: Dropping unused function directiveLinkingFn [_bower.js:51118,9]
+WARN: Dropping unused function argument oldValue [_bower.js:82845,61]
+WARN: Dropping unused function argument oldValue [_bower.js:82851,70]
+WARN: Dropping unused function argument transclusion [_bower.js:82835,52]
+WARN: Side effects in initialization of unused variable requestAnimationFrame [_bower.js:82830,8]
+WARN: Dropping unused function argument oldValue [_bower.js:82934,61]
+WARN: Dropping unused function argument oldValue [_bower.js:82940,70]
+WARN: Dropping unused function argument transclusion [_bower.js:82925,52]
+WARN: Side effects in initialization of unused variable requestAnimationFrame [_bower.js:82920,8]
+WARN: Dropping unused function argument oldValue [_bower.js:83040,56]
+WARN: Dropping unused function argument newValue [_bower.js:83040,46]
+WARN: Side effects in initialization of unused variable defaults [_bower.js:83194,8]
+WARN: Side effects in initialization of unused variable ngModelCtrl [_bower.js:83233,12]
+WARN: Side effects in initialization of unused variable ngModelCtrl [_bower.js:83259,12]
+WARN: Side effects in initialization of unused variable bodyEl [_bower.js:83331,10]
+WARN: Dropping unused function argument oldValue [_bower.js:83558,68]
+WARN: Dropping unused function argument oldValue [_bower.js:83591,54]
+WARN: Dropping unused function argument newValue [_bower.js:83591,44]
+WARN: Side effects in initialization of unused variable defaults [_bower.js:83543,8]
+WARN: Dropping unused function argument force [_bower.js:83814,35]
+WARN: Side effects in initialization of unused variable firstMonth [_bower.js:83824,18]
+WARN: Side effects in initialization of unused variable timezoneOffset [_bower.js:83740,12]
+WARN: Side effects in initialization of unused variable defaults [_bower.js:83702,8]
+WARN: Side effects in initialization of unused variable scope [_bower.js:83944,12]
+WARN: Dropping unused function argument oldValue [_bower.js:84032,76]
+WARN: Dropping unused function argument oldValue [_bower.js:84037,68]
+WARN: Dropping unused function argument transclusion [_bower.js:84023,52]
+WARN: Dropping unused function argument lang [_bower.js:84074,46]
+WARN: Dropping unused function argument lang [_bower.js:84078,34]
+WARN: Dropping unused function argument lang [_bower.js:84106,45]
+WARN: Dropping unused function argument $localeProvider [_bower.js:84115,54]
+WARN: Dropping unused function argument $window [_bower.js:84428,70]
+WARN: Dropping unused function argument $document [_bower.js:84428,59]
+WARN: Side effects in initialization of unused variable jqLite [_bower.js:84430,8]
+WARN: Dropping unused function argument scope [_bower.js:84834,86]
+WARN: Dropping unused function argument clonedElement [_bower.js:84834,71]
+WARN: Dropping unused function argument dimensions [_bower.js:84718,226]
+WARN: Dropping unused function argument oldValue [_bower.js:84994,61]
+WARN: Dropping unused function argument oldValue [_bower.js:85000,70]
+WARN: Dropping unused function argument transclusion [_bower.js:84984,52]
+WARN: Dropping unused function argument oldValue [_bower.js:85062,30]
+WARN: Dropping unused function argument controller [_bower.js:85049,52]
+WARN: Dropping unused function argument oldValue [_bower.js:85175,68]
+WARN: Dropping unused function argument attr [_bower.js:85438,42]
+WARN: Dropping unused function argument $scrollspy [_bower.js:85434,130]
+WARN: Dropping unused function argument dimensions [_bower.js:85434,118]
+WARN: Dropping unused function argument debounce [_bower.js:85434,108]
+WARN: Dropping unused function argument $rootScope [_bower.js:85434,96]
+WARN: Dropping unused function argument evt [_bower.js:85504,40]
+WARN: Side effects in initialization of unused variable bodyEl [_bower.js:85478,10]
+WARN: Dropping unused function argument oldValue [_bower.js:85709,56]
+WARN: Dropping unused function argument newValue [_bower.js:85709,46]
+WARN: Dropping unused function argument oldValue [_bower.js:85719,54]
+WARN: Dropping unused function argument newValue [_bower.js:85719,44]
+WARN: Dropping unused function argument oldValue [_bower.js:85887,62]
+WARN: Dropping unused function argument oldValue [_bower.js:85910,51]
+WARN: Side effects in initialization of unused variable ngModelCtrl [_bower.js:85903,12]
+WARN: Side effects in initialization of unused variable hoursLength [_bower.js:86116,42]
+WARN: Side effects in initialization of unused variable minutesLength [_bower.js:86117,46]
+WARN: Side effects in initialization of unused variable bodyEl [_bower.js:85979,10]
+WARN: Dropping unused function argument oldValue [_bower.js:86295,68]
+WARN: Dropping unused function argument oldValue [_bower.js:86325,54]
+WARN: Dropping unused function argument newValue [_bower.js:86325,44]
+WARN: Side effects in initialization of unused variable requestAnimationFrame [_bower.js:86281,8]
+WARN: Dropping unused function argument scope [_bower.js:86610,87]
+WARN: Dropping unused function argument clonedElement [_bower.js:86610,72]
+WARN: Dropping unused function argument oldValue [_bower.js:87002,68]
+WARN: Dropping unused function argument oldValue [_bower.js:87009,74]
+WARN: Dropping unused function argument transclusion [_bower.js:86964,52]
+WARN: Dropping unused function argument evt [_bower.js:87080,40]
+WARN: Side effects in initialization of unused variable bodyEl [_bower.js:87055,10]
+WARN: Dropping unused function argument oldValue [_bower.js:87229,59]
+WARN: Dropping unused function argument newValue [_bower.js:87229,49]
+WARN: Dropping unused function argument oldValue [_bower.js:87239,54]
+WARN: Dropping unused function argument undefined [_bower.js:87299,28]
+WARN: Dropping unused function argument document [_bower.js:87299,18]
+WARN: Dropping unused function argument window [_bower.js:87299,10]
+WARN: Dropping unused function argument event [_bower.js:87977,34]
+WARN: Dropping unused function argument event [_bower.js:87981,27]
+WARN: Dropping unused function argument event [_bower.js:87804,37]
+WARN: Dropping unused function argument event [_bower.js:87808,39]
+WARN: Dropping unused function argument event [_bower.js:87843,31]
+WARN: Dropping unused function argument event [_bower.js:87857,37]
+WARN: Dropping unused function argument event [_bower.js:87861,45]
+WARN: Dropping unused function argument undefined [_bower.js:87387,27]
+WARN: Dropping unused function argument b [_bower.js:88044,72]
+WARN: Dropping unused function argument deleteCount [_bower.js:88468,35]
+WARN: Dropping unused function argument start [_bower.js:88468,28]
+WARN: Dropping unused function argument key [_bower.js:88993,44]
+WARN: Dropping unused function argument c [_bower.js:89551,400]
+WARN: Dropping unused function argument b [_bower.js:89551,398]
+WARN: Dropping unused function argument c [_bower.js:89552,16]
+WARN: Dropping unused function argument c [_bower.js:89552,288]
+WARN: Dropping unused function argument b [_bower.js:89552,286]
+WARN: Dropping unused function argument a [_bower.js:89552,284]
+WARN: Dropping unused function argument b [_bower.js:89553,14]
+WARN: Dropping unused function argument f [_bower.js:89553,300]
+WARN: Dropping unused function argument d [_bower.js:89561,352]
+WARN: Dropping unused function argument c [_bower.js:89561,350]
+WARN: Dropping unused function argument b [_bower.js:89561,348]
+WARN: Dropping unused function argument a [_bower.js:89566,12]
+WARN: Dropping unused function argument a [_bower.js:89566,214]
+WARN: Dropping unused function argument a [_bower.js:89567,12]
+WARN: Dropping unused function argument a [_bower.js:89567,187]
+WARN: Dropping unused function argument a [_bower.js:89567,273]
+WARN: Dropping unused function argument b [_bower.js:89574,238]
+WARN: Dropping unused function argument b [_bower.js:89640,14]
+WARN: Dropping unused function argument b [_bower.js:89636,414]
+WARN: Dropping unused function argument l [_bower.js:89646,246]
+WARN: Dropping unused function argument k [_bower.js:89646,244]
+WARN: Boolean && always false [_bower.js:89648,481]
+WARN: Dropping unused function argument a [_bower.js:89758,321]
+File [36mapp/scripts/_bower.min.js[39m created: [32m3.29 MB[39m → [32m820.35 kB[39m
+
+[32mDone, without errors.[39m
+
+
+[4mExecution Time[24m[90m (2014-12-05 04:01:54 UTC)[39m
+bower_concat:all  [34m482ms[39m  [34m▇▇▇▇▇▇ 6%[39m
+uglify:bower       [34m8.1s[39m  [34m▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%[39m
+[34m[1mTotal 8.6s[22m[39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                            ]2;jonathan@haven: /Library/WebServer/Documents/app/scripts]1;..s/app/scripts[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app/scripts | 140x103 | ttys001[35m/Library/WebServer/Documents/app/scripts[32m[1753]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:02PM
+[0m>[K[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app/scripts | 140x103 | ttys001[35m/Library/WebServer/Documents/app/scripts[32m[1753]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:02PM
+[0m>[Kccd ~www[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:/Library/WebServer/Documents/app/scripts | 140x103 | ttys001[35m/Library/WebServer/Documents/app/scripts[32m[1753]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m>cd ~www[K
+]2;cd ~www]1;cd[1m[7m%[27m[1m[0m                                                                                                                                            ]2;jonathan@haven: ~www]1;~www[0m[27m[24m[J]0;jonathan@haven:~www | 140x103 | ttys001[35m~www[32m[1754]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m>[K[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:~www | 140x103 | ttys001[35m~www[32m[1754]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m>[Klls[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:~www | 140x103 | ttys001[35m~www[32m[1754]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m>ls[K
+]2;ls -FA]1;ls[30m[43mCGI-Executables[39;49m[0m/ [30m[43mDocuments[39;49m[0m/       [30m[43mshare[39;49m[0m/
+[1m[7m%[27m[1m[0m                                                                                                                                            ]2;jonathan@haven: ~www]1;~www[0m[27m[24m[J]0;jonathan@haven:~www | 140x103 | ttys001[35m~www[32m[1755]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m>[K[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:~www | 140x103 | ttys001[35m~www[32m[1755]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m>[Kccd Co  Documents[1m/[0m[0m [?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:~www | 140x103 | ttys001[35m~www[32m[1755]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m>cd Documents[K
+]2;cd Documents]1;cd[1m[7m%[27m[1m[0m                                                                                                                                            ]2;jonathan@haven: ~www/Documents]1;~www/Documents[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1756]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m>[K[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1756]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m>[KssetChatPro       cp[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1756]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m>setcp[K
+]2;setcp]1;setcpzsh: command not found: setcp
+[1m[7m%[27m[1m[0m                                                                                                                                            ]2;jonathan@haven: ~www/Documents]1;~www/Documents[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1757]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m>[K[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1757]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m>[Klls[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1757]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m>ls[K
+]2;ls -FA]1;ls.DS_Store                 .gitattributes            .travis.yml               PoweredByMacOSXLarge.gif  [1m[36mnode_modules[39;49m[0m/
+.bowerrc                  .gitignore                Gruntfile.js              [1m[36mapp[39;49m[0m/                      package.json
+.editorconfig             .jshintrc                 PoweredByMacOSX.gif       bower.json                [1m[36mtest[39;49m[0m/
+[1m[7m%[27m[1m[0m                                                                                                                                            ]2;jonathan@haven: ~www/Documents]1;~www/Documents[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1758]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m>[K[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1758]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m>[Kggit g  sstatus[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1758]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m>status[K
+]2;status]1;statuszsh: command not found: status
+[1m[7m%[27m[1m[0m                                                                                                                                            ]2;jonathan@haven: ~www/Documents]1;~www/Documents[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1759]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m>[K[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1759]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m>[Kggit init[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1759]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m>git init[K
+]2;git init]1;gitInitialized empty Git repository in /Library/WebServer/Documents/.git/
+[1m[7m%[27m[1m[0m                                                                                                                                            ]2;jonathan@haven: ~www/Documents]1;~www/Documents[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1760]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m±[K[127C on [35mmaster[31m![00m[138D[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1760]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m±[K[127C on [35mmaster[31m![00m[138Dsstatyus[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1760]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m±statyus[K[120C on [35mmaster[31m![00m[131D
+]2;statyus]1;statyuszsh: command not found: statyus
+[1m[7m%[27m[1m[0m                                                                                                                                            ]2;jonathan@haven: ~www/Documents]1;~www/Documents[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1761]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m±[K[127C on [35mmaster[31m![00m[138D[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1761]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m±[K[127C on [35mmaster[31m![00m[138Dsstatys  us[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1761]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m±status[K[121C on [35mmaster[31m![00m[132D
+]2;status]1;statuszsh: command not found: status
+[1m[7m%[27m[1m[0m                                                                                                                                            ]2;jonathan@haven: ~www/Documents]1;~www/Documents[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1762]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m±[K[127C on [35mmaster[31m![00m[138D[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1762]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m±[K[127C on [35mmaster[31m![00m[138Dggit status[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1762]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m±git status[K[117C on [35mmaster[31m![00m[128D
+]2;git status]1;git# On branch master
+#
+# Initial commit
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	[31m.bowerrc[m
+#	[31m.editorconfig[m
+#	[31m.gitattributes[m
+#	[31m.gitignore[m
+#	[31m.jshintrc[m
+#	[31m.travis.yml[m
+#	[31mGruntfile.js[m
+#	[31mPoweredByMacOSX.gif[m
+#	[31mPoweredByMacOSXLarge.gif[m
+#	[31mapp/[m
+#	[31mbower.json[m
+#	[31mpackage.json[m
+#	[31mtest/[m
+nothing added to commit but untracked files present (use "git add" to track)
+[1m[7m%[27m[1m[0m                                                                                                                                            ]2;jonathan@haven: ~www/Documents]1;~www/Documents[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1763]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m±[K[127C on [35mmaster[31m![00m[138D[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1763]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:04PM
+[0m±[K[127C on [35mmaster[31m![00m[138Dggit add *[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1763]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:05PM
+[0m±git add *[K[118C on [35mmaster[31m![00m[129D
+]2;git add *]1;gitThe following paths are ignored by one of your .gitignore files:
+node_modules
+Use -f if you really want to add them.
+fatal: no files added
+[1m[7m%[27m[1m[0m                                                                                                                                            ]2;jonathan@haven: ~www/Documents]1;~www/Documents[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1764]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:05PM
+[0m±[K[127C on [35mmaster[31m![00m[138D[?1h=[?1l>[A[0m[27m[24m[J]0;jonathan@haven:~www/Documents | 140x103 | ttys001[35m~www/Documents[32m[1764]jonathan[1m[32m@haven:Smile![1m[34m(0q[1m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq[1m[34mq(B[35m 9:05PM
+[0m±[K[127C on [35mmaster[31m![00m[138Dggit ass  d d 
+[0m.bowerrc                  .gitignore                Gruntfile.js              app                       test                    
+.editorconfig             .jshintrc                 PoweredByMacOSX.gif       bower.json                                        
+[J.gitattributes            [J.travis.yml               [JPoweredByMacOSXLarge.gif  [Jpackage.json              [J                        [3A[0m[27m[24m[1Cgit add[K[120C on [35mmaster[31m![00m[130D.bowerrc
+[7m.bowerrc                [0m  .gitignore                Gruntfile.js              app                       test                    [K
+.editorconfig             .jshintrc                 PoweredByMacOSX.gif       bower.json                                        [K
+[J.gitattributes            [J.travis.yml               [JPoweredByMacOSXLarge.gif  [Jpackage.json              [J                        [3A[0m[27m[24m[1Cgit add .bowerrc[K[111C on [35mmaster[31m![00m[122D
+[7m.bowerrc                [0m  [7m.bowerrc                [0m  [A[0m[27m[24m[1Cgit add .bowerrc[K[111C on [35mmaster[31m![00m[122D
+[J[A[17C 
+[J[0m.editorconfig             .jshintrc                 PoweredByMacOSX.gif       bower.json                                        
+.gitattributes            .travis.yml               PoweredByMacOSXLarge.gif  package.json                                      
+[J.gitignore                [JGruntfile.js              [Japp                       [Jtest                      [J                        [3A[0m[27m[24m[1Cgit add .bowerrc[K[111C on [35mmaster[31m![00m[121D.editorconfig
+[7m.editorconfig           [0m  .jshintrc                 PoweredByMacOSX.gif       bower.json                                        [K
+.gitattributes            .travis.yml               PoweredByMacOSXLarge.gif  package.json                                      [K
+[J.gitignore                [JGruntfile.js              [Japp                       [Jtest                      [J                        [3A[0m[27m[24m[1Cgit add .bowerrc .editorconfig[K[97C on [35mmaster[31m![00m[108D
+[7m.editorconfig           [0m  [7m.editorconfig           [0m  [A[0m[27m[24m[1Cgit add .bowerrc .editorconfig[K[97C on [35mmaster[31m![00m[108D
+[J[A[31C 
+[J[0m.gitattributes            .travis.yml               PoweredByMacOSXLarge.gif  package.json                                      
+.gitignore                Gruntfile.js              app                       test                                              
+[J.jshintrc                 [JPoweredByMacOSX.gif       [Jbower.json                [J                                                [3A[0m[27m[24m[1Cgit add .bowerrc .editorconfig[K[97C on [35mmaster[31m![00m[107D.gitattributes
+[7m.gitattributes          [0m  .travis.yml               PoweredByMacOSXLarge.gif  package.json                                      [K
+.gitignore                Gruntfile.js              app                       test                                              [K
+[J.jshintrc                 [JPoweredByMacOSX.gif       [Jbower.json                [J                                                [3A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes[K[82C on [35mmaster[31m![00m[93D
+[7m.gitattributes          [0m  [7m.gitattributes          [0m  [A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes[K[82C on [35mmaster[31m![00m[93D
+[J[A[46C 
+[J[0m.gitignore                .travis.yml               PoweredByMacOSX.gif       app                       package.json            
+[J.jshintrc                 [JGruntfile.js              [JPoweredByMacOSXLarge.gif  [Jbower.json                [Jtest                    [J[A[A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes[K[82C on [35mmaster[31m![00m[92D.gitignore
+[7m.gitignore              [0m  .travis.yml               PoweredByMacOSX.gif       app                       package.json            [K
+[J.jshintrc                 [JGruntfile.js              [JPoweredByMacOSXLarge.gif  [Jbower.json                [Jtest                    [J[A[A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore[K[71C on [35mmaster[31m![00m[82D
+[7m.gitignore              [0m  [7m.gitignore              [0m  [A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore[K[71C on [35mmaster[31m![00m[82D
+[J[A[57C 
+[J[0m.jshintrc                 Gruntfile.js              PoweredByMacOSXLarge.gif  bower.json                test                    
+[J.travis.yml               [JPoweredByMacOSX.gif       [Japp                       [Jpackage.json              [J                        [A[A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore[K[71C on [35mmaster[31m![00m[81D.jshintrc
+[7m.jshintrc               [0m  Gruntfile.js              PoweredByMacOSXLarge.gif  bower.json                test                    [K
+[J.travis.yml               [JPoweredByMacOSX.gif       [Japp                       [Jpackage.json              [J                        [A[A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc[K[61C on [35mmaster[31m![00m[72D
+[7m.jshintrc               [0m  [7m.jshintrc               [0m  [A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc[K[61C on [35mmaster[31m![00m[72D
+[J[A[67C 
+[J[0m.travis.yml               PoweredByMacOSX.gif       app                       package.json                                      
+[JGruntfile.js              [JPoweredByMacOSXLarge.gif  [Jbower.json                [Jtest                      [J                        [A[A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc[K[61C on [35mmaster[31m![00m[71D.travis.yml
+[7m.travis.yml             [0m  PoweredByMacOSX.gif       app                       package.json                                      [K
+[JGruntfile.js              [JPoweredByMacOSXLarge.gif  [Jbower.json                [Jtest                      [J                        [A[A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml[K[49C on [35mmaster[31m![00m[60D
+[7m.travis.yml             [0m  [7m.travis.yml             [0m  [A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml[K[49C on [35mmaster[31m![00m[60D
+[J[A[79C 
+[J[0mGruntfile.js              PoweredByMacOSXLarge.gif  bower.json                test                                              
+[JPoweredByMacOSX.gif       [Japp                       [Jpackage.json              [J                                                [A[A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml[K[49C on [35mmaster[31m![00m[59DGruntfile.js
+[7mGruntfile.js            [0m  PoweredByMacOSXLarge.gif  bower.json                test                                              [K
+[JPoweredByMacOSX.gif       [Japp                       [Jpackage.json              [J                                                [A[A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js[K[36C on [35mmaster[31m![00m[47D
+[7mGruntfile.js            [0m  [7mGruntfile.js            [0m  [A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js[K[36C on [35mmaster[31m![00m[47D
+[J[A[92C 
+[J[0mPoweredByMacOSX.gif       app                       package.json                                                              
+[JPoweredByMacOSXLarge.gif  [Jbower.json                [Jtest                      [J                                                [A[A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js[K[36C on [35mmaster[31m![00m[46DPoweredByMacOSX.gif
+[7mPoweredByMacOSX.gif     [0m  app                       package.json                                                              [K
+[JPoweredByMacOSXLarge.gif  [Jbower.json                [Jtest                      [J                                                [A[A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js PoweredByMacOSX.gif[K[16C on [35mmaster[31m![00m[27D
+[7mPoweredByMacOSX.gif     [0m  [7mPoweredByMacOSX.gif     [0m  [A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js PoweredByMacOSX.gif[K[16C on [35mmaster[31m![00m[27DLarge.gif
+[0mPoweredByMacOSX.gif       [1B[7mPoweredByMacOSXLarge.gif[0m  [A[A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js PoweredByMacOSXLarge.gif[K[11C on [35mmaster[31m![00m[22D[24Dapp/                    [20D
+[26C[7mapp                     [0m  [1BPoweredByMacOSXLarge.gif  [A[A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js app/[K[31C on [35mmaster[31m![00m[42D
+[J[A[97C 
+[J[0mPoweredByMacOSX.gif       app                       package.json                                                              
+[JPoweredByMacOSXLarge.gif  [Jbower.json                [Jtest                      [J                                                [A[A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js app/[K[31C on [35mmaster[31m![00m[41DPoweredByMacOSX.gif
+[7mPoweredByMacOSX.gif     [0m  app                       package.json                                                              [K
+[JPoweredByMacOSXLarge.gif  [Jbower.json                [Jtest                      [J                                                [A[A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js app/ PoweredByMacOSX.gif[K[11C on [35mmaster[31m![00m[22D
+[7mPoweredByMacOSX.gif     [0m  [7mPoweredByMacOSX.gif     [0m  [A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js app/ PoweredByMacOSX.gif[K[11C on [35mmaster[31m![00m[22DLarge.gif
+[0mPoweredByMacOSX.gif       [1B[7mPoweredByMacOSXLarge.gif[0m  [A[A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js app/ PoweredByMacOSXLarge.gif[K[6C on [35mmaster[31m![00m[17D[24Dapp/                    [20D
+[26C[7mapp                     [0m  [1BPoweredByMacOSXLarge.gif  [A[A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js app/ app/[K[26C on [35mmaster[31m![00m[37Dbower.json
+[26C[0mapp                       [1B[26C[7mbower.json              [0m  [A[A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js app/ bower.json[K[20C on [35mmaster[31m![00m[31D
+[J[A[108C[1m [0m[0m 
+[J[J[0mPoweredByMacOSX.gif       [JPoweredByMacOSXLarge.gif  [Japp                       [Jpackage.json              [Jtest                    [J[A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js app/ bower.json[K[20C on [35mmaster[31m![00m[30DPoweredByMacOSX.gif[K
+[J[7mPoweredByMacOSX.gif     [0m  [JPoweredByMacOSXLarge.gif  [Japp                       [Jpackage.json              [Jtest                    [J[A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js app/ bower.json PoweredByMacOSX.gif[K
+[7mPoweredByMacOSX.gif     [0m  [7mPoweredByMacOSX.gif     [0m  [A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js app/ bower.json PoweredByMacOSX.gif[KLarge.gif
+[26C[7mPoweredByMacOSXLarge.gif[0m  PoweredByMacOSX.gif       [A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js app/ bower.json PoweredByMacOSXLarge.gif[K[24Dapp/[K[15C on [35mmaster[31m![00m[26D
+[52C[7mapp                     [0m  [26CPoweredByMacOSXLarge.gif  [A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js app/ bower.json app/[K[15C on [35mmaster[31m![00m[26Dpackage.json
+[78C[7mpackage.json            [0m  [52Capp                       [A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js app/ bower.json package.json[K[7C on [35mmaster[31m![00m[18D
+[J[A[121C 
+[J[J[0mPoweredByMacOSX.gif       [JPoweredByMacOSXLarge.gif  [Japp                       [Jtest                    [J[A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js app/ bower.json package.json[K[7C on [35mmaster[31m![00m[17DPoweredByMacOSX.gif[K
+[J[7mPoweredByMacOSX.gif     [0m  [JPoweredByMacOSXLarge.gif  [Japp                       [Jtest                    [J[A[A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js app/ bower.json package.json PoweredByMacOSX.gif[K
+[7mPoweredByMacOSX.gif     [0m  [7mPoweredByMacOSX.gif     [0m  [A[A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js app/ bower.json package.json PoweredByMacOSX.gif[K[A[136CLarge.gif
+[26C[7mPoweredByMacOSXLarge.gif[0m  PoweredByMacOSX.gif       [A[A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js app/ bower.json package.json PoweredByMacOSXLarge.gif[K[A[116Capp/[K[2C on [35mmaster[31m![00m[1B[K[A[126C[1B[J[0mPoweredByMacOSX.gif       [JPoweredByMacOSXLarge.gif  [J[7mapp                     [0m  [Jtest                    [J[A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js app/ bower.json package.json app/[K[2C on [35mmaster[31m![00m[13Dtest/
+[78C[7mtest                    [0m[52Capp                       [A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js app/ bower.json package.json test/[K[1C on [35mmaster[31m![00m[12D
+[J[A[127C
+[J[J[0m.jshintrc      [Jkarma.conf.js  [Jspec         [J[A[0m[27m[24m[1Cgit add .bowerrc .editorconfig .gitattributes .gitignore .jshintrc .travis.yml Gruntfile.js app/ bower.json package.json test/[K[1C on [35mmaster[31m![00m[12D[?1h=[?1l>[A[0m[27m[24m[J]0;jonatha
