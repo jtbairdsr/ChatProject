@@ -2,7 +2,7 @@
 * @Author: jonathan
 * @Date:   2014-12-04 13:14:41
 * @Last Modified by:   jonathan
-* @Last Modified time: 2014-12-05 02:39:34
+* @Last Modified time: 2014-12-05 11:26:06
 */
 'use strict';
 
@@ -20,7 +20,7 @@ angular.module('chatApp')
             var ref = new Firebase('https://luminous-inferno-5021.firebaseIO.com/messages');
             var sync = $firebase(ref);
             $scope.messages = sync.$asArray();
-            ctrl.addMessage = function(user) {
+            $scope.addMessage = function(user) {
                 var date = new Date();
                 var tempText = $scope.newMessageText;
                 var text = '';

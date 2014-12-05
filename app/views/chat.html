@@ -7,8 +7,12 @@
     </div>
 </div>
 <div class="row">
-    <form data-ng-submit="ctrl.addMessage('dummy data')">
-        <textarea class="form-control" name="" data-ng-model="newMessageText"></textarea>
-        <button type="submit" class="btn btn-success pull-right">Submit</button>
+    <form data-ng-submit="addMessage('dummy data')">
+        <div class="form-group">
+            <textarea class="form-control" name="" data-ng-model="newMessageText"></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-success pull-right">Submit</button>
+        </div>
     </form>
 </div>
