@@ -1,8 +1,14 @@
-	<div class="row">
-		<div class="well">
-
-		</div>
-	</div>
-	<div class="row">
-		<textarea name=""></textarea>
-	</div>
+<div class="row">
+    <div class="well">
+        <ul class="list-group">
+            <li class="list-group-item" data-ng-repeat="message in messages" data-ng-bind-html="'<strong>' + message.user + '</strong><br><div class=\'text-right\'>' + message.text + '</div>'">
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="row">
+    <form data-ng-submit="ctrl.addMessage('dummy data')">
+        <textarea class="form-control" name="" data-ng-model="newMessageText"></textarea>
+        <button type="submit" class="btn btn-success pull-right">Submit</button>
+    </form>
+</div>

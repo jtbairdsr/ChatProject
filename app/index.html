@@ -24,22 +24,25 @@
 
     <!-- Add your site or application content here -->
     <div class="container">
-        <div class="header">
-            <ul class="nav nav-pills pull-right">
-                <li><a ui-sref="chat">Chat</a>
-                </li>
-                <li><a ui-sref="admin">Admin</a>
-                </li>
-                <li><a ui-sref="profile"><span class="glyphicon glyphicon-user"></span></a>
-                </li>
-            </ul>
-            <h3 class="text-muted">Team Chat</h3>
-        </div>
+        <div>
+            <div class="header">
+                <ul class="nav nav-pills pull-right">
+                    <li><a ui-sref="chat">Chat</a>
+                    </li>
+                    <li><a ui-sref="admin">Admin</a>
+                    </li>
+                    <li><a ui-sref="profile"><span class="glyphicon glyphicon-user"></span></a>
+                    </li>
+                    <li><a ui-sref="login" ng-click="Auth.$unauth()"><span class="glyphicon glyphicon-log-out"></span></a></li>
+                </ul>
+                <h3 class="text-muted">Team Chat</h3>
+            </div>
 
-        <div ui-view></div>
+            <div ui-view></div>
 
-        <div class="footer">
-            <p><span class="glyphicon glyphicon-asterisk"></span> please use responibly.</p>
+            <div class="footer">
+                <p><span class="glyphicon glyphicon-asterisk"></span> please use responibly.</p>
+            </div>
         </div>
     </div>
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
@@ -47,6 +50,7 @@
     <script src="scripts/app.js"></script>
     <script src="scripts/controllers/admin.js"></script>
     <script src="scripts/controllers/chat.js"></script>
+    <script src="scripts/controllers/login.js"></script>
     <!-- endbuild -->
 </body>
 
