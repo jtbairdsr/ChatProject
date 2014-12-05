@@ -17,7 +17,7 @@
     <!-- endbuild -->
 </head>
 
-<body ng-app="documentsApp">
+<body ng-app="chatApp">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -26,27 +26,27 @@
     <div class="container">
         <div class="header">
             <ul class="nav nav-pills pull-right">
-                <li class="active"><a ng-href="#">Home</a>
+                <li><a ui-sref="chat">Chat</a>
                 </li>
-                <li><a ng-href="#/about">About</a>
+                <li><a ui-sref="admin">Admin</a>
                 </li>
-                <li><a ng-href="#">Contact</a>
+                <li><a ui-sref="profile"><span class="glyphicon glyphicon-user"></span></a>
                 </li>
             </ul>
-            <h3 class="text-muted">documents</h3>
+            <h3 class="text-muted">Team Chat</h3>
         </div>
 
-        <div ng-view=""></div>
+        <div ui-view></div>
 
         <div class="footer">
-            <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+            <p><span class="glyphicon glyphicon-asterisk"></span> please use responibly.</p>
         </div>
     </div>
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
     <script src="scripts/_bower.min.js"></script>
     <script src="scripts/app.js"></script>
-    <script src="scripts/controllers/main.js"></script>
-    <script src="scripts/controllers/about.js"></script>
+    <script src="scripts/controllers/admin.js"></script>
+    <script src="scripts/controllers/chat.js"></script>
     <!-- endbuild -->
 </body>
 

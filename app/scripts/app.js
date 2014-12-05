@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 angular
-  .module('documentsApp', [
+  .module('chatApp', [
     'ngAnimate',
     'ngAria',
     'ngCookies',
@@ -17,19 +17,30 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'ui.router'
+
   ])
-  .config(function ($routeProvider) {
-    $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+  .config(function ($stateProvider, $urlRouterProvider) {
+
+    // For an unmatched url, redirect to /chat
+    $urlRouterProvider.otherwise("/chat");
+
+    // Now se up the states
+    $stateProvider
+      .state('chat', {
+        url: '/chat',
+        templateUrl: 'views/chat.html',
+        controller: 'ChatCtrl'
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
+      .state('admin', {
+        url: '/admin',
+        templateUrl: 'views/admin.html',
+        controller: 'AdminCtrl'
       })
-      .otherwise({
-        redirectTo: '/'
-      });
+      .state('profile', {
+        url: '/profile',
+        templateUrl: 'views/profile.html',
+        controller: 'ProfileCtrl'
+      })
   });
