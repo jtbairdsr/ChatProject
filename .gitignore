@@ -1,5 +1,7 @@
-node_modules
 dist
 .tmp
 .sass-cache
 bower_components
+PoweredByMacOSX.gif
+PoweredByMacOSXLarge.gif
+package.json
