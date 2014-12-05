@@ -8,10 +8,10 @@
  * Controller of the documentsApp
  */
 angular.module('chatApp')
-  .controller('AdminCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+    .controller('AdminCtrl', ['$scope', '$state',
+        function($scope, $state) {
+            $scope.userAdmin = function() {
+            	$state.go('users');
+            }
+        }
+    ]);

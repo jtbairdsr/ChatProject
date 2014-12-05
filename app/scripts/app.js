@@ -19,7 +19,8 @@ var app = angular
         'ngRoute',
         'ngSanitize',
         'ngTouch',
-        'ui.router'
+        'ui.router',
+        'mgcrea.ngStrap'
 
     ]);
 app.run(['$rootScope', '$state',
@@ -56,7 +57,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
         .state('chat', {
             url: '/chat',
             templateUrl: 'views/chat.html',
-            controller: 'ChatCtrl as ctrl',
+            controller: 'ChatCtrl',
             resolve: {
                 // controller will not be loaded until $waitForAuth resolves
                 // Auth refers to our $firebaseAuth wrapper in the example above
