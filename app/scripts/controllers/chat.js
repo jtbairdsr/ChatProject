@@ -2,7 +2,7 @@
 * @Author: jonathan
 * @Date:   2014-12-04 13:14:41
 * @Last Modified by:   jonathan
-* @Last Modified time: 2014-12-05 02:31:56
+* @Last Modified time: 2014-12-05 02:39:34
 */
 'use strict';
 
@@ -14,8 +14,8 @@
  * Controller of the documentsApp
  */
 angular.module('chatApp')
-    .controller('ChatCtrl', ['$scope', '$firebase', 'Auth',
-        function($scope, $firebase, Auth) {
+    .controller('ChatCtrl', ['$scope', '$firebase', 'currentAuth',
+        function($scope, $firebase, currentAuth) {
             var ctrl = this;
             var ref = new Firebase('https://luminous-inferno-5021.firebaseIO.com/messages');
             var sync = $firebase(ref);

@@ -1,12 +1,12 @@
-<form name="loginForm" data-ng-submit="loginForm.$valid && ctrl.login()" novalidate>
+<form name="loginForm" data-ng-submit="login()" novalidate>
     <h1 class="block-center">Welcome, please log in.</h1>
     <div class="row">
         <div class="col-md-3"></div>
         <div class="col-md-6">
             <div class="input-group input-group-lg">
                 <span class="input-group-addon">
-                            <span class="glyphicon glyphicon-user"></span></span>
-                <input class="center-block form-control" type="email" data-ng-model="loginForm.email" placeholder="Email" required>
+                    <span class="glyphicon glyphicon-user"></span></span>
+                <input class="center-block form-control" type="email" data-ng-model="email" placeholder="Email" required>
             </div>
         </div>
         <div class="col-md-3"></div>
@@ -16,13 +16,13 @@
         <div class="col-md-6">
             <div class="input-group input-group-lg">
                 <span class="input-group-addon">
-                            <span class="glyphicon glyphicon-lock"></span></span>
-                <input class="center-block form-control" type="password" data-ng-model="loginForm.password" placeholder="Password" required>
+                    <span class="glyphicon glyphicon-lock"></span></span>
+                <input class="center-block form-control" type="password" data-ng-model="password" placeholder="Password" required>
             </div>
         </div>
         <div class="col-md-3"></div>
     </div>
     <div class="row">
-        <button class="btn btn-success btn-lg pull-right"><span class="glyphicon glyphicon-log-in"></span> Login</button>
+        <button class="btn btn-success btn-lg pull-right" type="submit"><span class="glyphicon glyphicon-log-in"></span> Login</button>
     </div>
 </form>

@@ -41,13 +41,13 @@ app.config(function($stateProvider, $urlRouterProvider) {
     // Now set up the states
     $stateProvider
         .state('login', {
-            // abstract: true,
-            controller: 'LoginCtrl',
+            url: '/login',
             templateUrl: 'views/login.html',
+            controller: 'LoginCtrl',
             resolve: {
                 // controller will not be loaded until $waitForAuth resolves
                 // Auth refers to our $firebaseAuth wrapper in the example above
-                "currentAuth": ["Auth", function(Auth) {
+                'currentAuth': ['Auth', function(Auth) {
                     // $waitForAuth returns a promise so the resolve waits for it to complete
                     return Auth.$waitForAuth();
                 }]
@@ -60,9 +60,10 @@ app.config(function($stateProvider, $urlRouterProvider) {
             resolve: {
                 // controller will not be loaded until $waitForAuth resolves
                 // Auth refers to our $firebaseAuth wrapper in the example above
-                "currentAuth": ["Auth", function(Auth) {
-                    // $waitForAuth returns a promise so the resolve waits for it to complete
-                    return Auth.$waitForAuth();
+                'currentAuth': ['Auth', function(Auth) {
+                    // $requireAuth returns a promise so the resolve waits for it to complete
+                    // If the promise is rejected, it will throw a $stateChangeError (see above)
+                    return Auth.$requireAuth();
                 }]
             }
         })
@@ -73,9 +74,10 @@ app.config(function($stateProvider, $urlRouterProvider) {
             resolve: {
                 // controller will not be loaded until $waitForAuth resolves
                 // Auth refers to our $firebaseAuth wrapper in the example above
-                "currentAuth": ["Auth", function(Auth) {
-                    // $waitForAuth returns a promise so the resolve waits for it to complete
-                    return Auth.$waitForAuth();
+                'currentAuth': ['Auth', function(Auth) {
+                    // $requireAuth returns a promise so the resolve waits for it to complete
+                    // If the promise is rejected, it will throw a $stateChangeError (see above)
+                    return Auth.$requireAuth();
                 }]
             }
         })
@@ -86,9 +88,10 @@ app.config(function($stateProvider, $urlRouterProvider) {
             resolve: {
                 // controller will not be loaded until $waitForAuth resolves
                 // Auth refers to our $firebaseAuth wrapper in the example above
-                "currentAuth": ["Auth", function(Auth) {
-                    // $waitForAuth returns a promise so the resolve waits for it to complete
-                    return Auth.$waitForAuth();
+                'currentAuth': ['Auth', function(Auth) {
+                    // $requireAuth returns a promise so the resolve waits for it to complete
+                    // If the promise is rejected, it will throw a $stateChangeError (see above)
+                    return Auth.$requireAuth();
                 }]
             }
         })
@@ -99,46 +102,27 @@ app.config(function($stateProvider, $urlRouterProvider) {
             resolve: {
                 // controller will not be loaded until $waitForAuth resolves
                 // Auth refers to our $firebaseAuth wrapper in the example above
-                "currentAuth": ["Auth", function(Auth) {
-                    // $waitForAuth returns a promise so the resolve waits for it to complete
-                    return Auth.$waitForAuth();
+                'currentAuth': ['Auth', function(Auth) {
+                    // $requireAuth returns a promise so the resolve waits for it to complete
+                    // If the promise is rejected, it will throw a $stateChangeError (see above)
+                    return Auth.$requireAuth();
                 }]
             }
         })
 });
-app.filter('htmlEscape', function() {
-    return function(input) {
-        if (!input) {
-            return '';
-        }
-        return input.
-        replace(/&/g, '&amp;').
-        replace(/</g, '&lt;').
-        replace(/>/g, '&gt;').
-        replace(/'/g, '&#39;').
-        replace(/"/g, '&quot;');
-    };
-});
-app.filter('textToHtml', ['$sce', 'htmlEscapeFilter',
-    function($sce, htmlEscapeFilter) {
-        return function(input) {
-            if (!input) {
-                return '';
-            }
-            input = htmlEscapeFilter(input);
-
-            var output = '';
-            $.each(input.split("\n\n"), function(key, paragraph) {
-                output += '<p>' + paragraph + '</p>';
-            });
-
-            return $sce.trustAsHtml(output);
-        };
-    }
-]);
+// Authentication Factory so we don't have to do this everytime we want to check authentication.
 app.factory("Auth", ["$firebaseAuth",
     function($firebaseAuth) {
         var ref = new Firebase("https://luminous-inferno-5021.firebaseIO.com");
         return $firebaseAuth(ref);
+    }
+]);
+// Controller that lets me have access to methods in the header.
+app.controller('NavCtrl', ['$scope', 'Auth',
+    function($scope, Auth) {
+        var ctrl = this;
+        ctrl.logout = function() {
+            Auth.$unauth();
+        };
     }
 ]);

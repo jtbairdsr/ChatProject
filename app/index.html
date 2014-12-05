@@ -25,7 +25,7 @@
     <!-- Add your site or application content here -->
     <div class="container">
         <div>
-            <div class="header">
+            <div class="header" data-ng-controller="NavCtrl">
                 <ul class="nav nav-pills pull-right">
                     <li><a ui-sref="chat">Chat</a>
                     </li>
@@ -33,7 +33,7 @@
                     </li>
                     <li><a ui-sref="profile"><span class="glyphicon glyphicon-user"></span></a>
                     </li>
-                    <li><a ui-sref="login" ng-click="Auth.$unauth()"><span class="glyphicon glyphicon-log-out"></span></a></li>
+                    <!-- <li><a ui-sref="login" ng-click="NavCtrl.logout"><span class="glyphicon glyphicon-log-out"></span></a></li> -->
                 </ul>
                 <h3 class="text-muted">Team Chat</h3>
             </div>
@@ -41,7 +41,7 @@
             <div ui-view></div>
 
             <div class="footer">
-                <p><span class="glyphicon glyphicon-asterisk"></span> please use responibly.</p>
+                <p><span class="glyphicon glyphicon-exclamation-sign"></span> please be respectful.</p>
             </div>
         </div>
     </div>
