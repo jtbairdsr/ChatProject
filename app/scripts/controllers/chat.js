@@ -2,7 +2,7 @@
 * @Author: jonathan
 * @Date:   2014-12-04 13:14:41
 * @Last Modified by:   jonathan
-* @Last Modified time: 2014-12-05 11:26:06
+* @Last Modified time: 2014-12-05 14:22:01
 */
 'use strict';
 
@@ -16,7 +16,6 @@
 angular.module('chatApp')
     .controller('ChatCtrl', ['$scope', '$firebase', 'currentAuth',
         function($scope, $firebase, currentAuth) {
-            var ctrl = this;
             var ref = new Firebase('https://luminous-inferno-5021.firebaseIO.com/messages');
             var sync = $firebase(ref);
             $scope.messages = sync.$asArray();
