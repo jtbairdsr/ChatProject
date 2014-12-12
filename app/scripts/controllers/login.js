@@ -2,7 +2,7 @@
  * @Author: jonathan
  * @Date:   2014-12-05 02:14:17
  * @Last Modified by:   jonathan
- * @Last Modified time: 2014-12-12 14:19:09
+ * @Last Modified time: 2014-12-12 14:30:36
  */
 
 angular.module('chatApp')
@@ -18,24 +18,20 @@ angular.module('chatApp')
                 }).then(function(authData) {
                     var temp = 0;
                     authData.details = $firebase($rootScope.ref.child('users').child(authData.password.email.split('@')[0])).$asObject();
-                    $rootScope.user = authData;
                     console.log('user is authenticated' + ' | ' + authData);
-                    // while (authData.details.disabled === undefined) {
-                    //     temp++;
-                    //     console.log(temp + ': ' + authData.details.disabled);
-                    // }
                     $timeout(function() {
                         if (authData.details.disabled) {
                             $alert({
                                 title: 'Error:',
                                 content: 'Your account has been disabled.  If this is an error please contact your team lead.',
-                                placement: 'top-right',
+                                placement: 'middle',
                                 duration: '3',
                                 type: 'danger',
                                 show: true
                             });
                             Auth.$unauth();
                         } else {
+                            $rootScope.user = authData;
                             $state.go('chat');
                         }
                     }, 1000);
