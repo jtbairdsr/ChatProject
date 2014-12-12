@@ -2,13 +2,17 @@
  * @Author: jonathan
  * @Date:   2014-12-05 14:09:33
  * @Last Modified by:   jonathan
- * @Last Modified time: 2014-12-12 11:47:32
+ * @Last Modified time: 2014-12-12 13:59:22
  */
 
 angular.module('chatApp')
     .controller('ProfileCtrl', ['$scope', 'Auth', 'currentAuth', '$alert',
         function($scope, Auth, currentAuth, $alert) {
             $scope.$emit('getUser');
+            $scope.logOff = function() {
+                Auth.$unauth();
+                $state.go('login');
+            };
             $scope.updateUser = function() {
                 $scope.user.details.$save()
                     .then(function(ref) {
