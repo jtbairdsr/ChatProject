@@ -2,7 +2,7 @@
 * @Author: jonathan
 * @Date:   2014-12-04 13:14:41
 * @Last Modified by:   jonathan
-* @Last Modified time: 2014-12-05 14:22:01
+* @Last Modified time: 2014-12-12 09:49:33
 */
 'use strict';
 
@@ -14,12 +14,13 @@
  * Controller of the documentsApp
  */
 angular.module('chatApp')
-    .controller('ChatCtrl', ['$scope', '$firebase', 'currentAuth',
-        function($scope, $firebase, currentAuth) {
-            var ref = new Firebase('https://luminous-inferno-5021.firebaseIO.com/messages');
-            var sync = $firebase(ref);
+    .controller('ChatCtrl', ['$scope', '$firebase', 'currentAuth', 'Auth',
+        function($scope, $firebase, currentAuth, Auth) {
+            var messgeRef = $scope.ref.child('messages');
+            var sync = $firebase(messgeRef);
             $scope.messages = sync.$asArray();
-            $scope.addMessage = function(user) {
+            $scope.$emit('getUser');
+            $scope.addMessage = function() {
                 var date = new Date();
                 var tempText = $scope.newMessageText;
                 var text = '';
@@ -27,13 +28,13 @@ angular.module('chatApp')
                 for (var i = 0; i < lineBreaks.length; i++) {
                 	text += lineBreaks[i] + '<br>';
                 };
-                if (text !== '' && text !== undefined) {
+                if (text !== undefined) {
                     $scope.messages.$add({
                         date: date.toString(),
                         text: text,
-                        user: user
+                        user: $scope.user.password.email.split('@')[0]
                     });
-                    $scope.newMessageText = '';
+                    $scope.newMessageText = undefined;
                 }
             };
         }
