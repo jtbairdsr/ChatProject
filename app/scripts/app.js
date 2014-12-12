@@ -23,8 +23,8 @@ var app = angular
         'mgcrea.ngStrap'
 
     ]);
-app.run(['$rootScope', '$state', 'Auth', '$firebase',
-    function($rootScope, $state, Auth, $firebase) {
+app.run(['$rootScope', '$state', 'Auth', '$firebase', '$timeout',
+    function($rootScope, $state, Auth, $firebase, $timeout) {
         $rootScope.$on("$stateChangeError", function(event, toState, toParams, fromState, fromParams, error) {
             // We can catch the error thrown when the $requireAuth promise is rejected
             // and redirect the user back to the home page
@@ -41,10 +41,20 @@ app.run(['$rootScope', '$state', 'Auth', '$firebase',
         }
 
         function getUser() {
-            $rootScope.ref = new Firebase("https://luminous-inferno-5021.firebaseIO.com");
-            var user = Auth.$getAuth();
-            user.details = $firebase($rootScope.ref.child('users').child(user.password.email.split('@')[0])).$asObject();
-            $rootScope.user = user;
+            if ($rootScope.user === undefined) {
+                $rootScope.ref = new Firebase("https://luminous-inferno-5021.firebaseIO.com");
+                var user = Auth.$getAuth();
+                user.details = $firebase($rootScope.ref.child('users').child(user.password.email.split('@')[0])).$asObject();
+                $rootScope.user = user;
+            } else {
+                $timeout(function() {
+                    if ($rootScope.user.details.disabled) {
+                        console.log('user is disabled');
+                        $state.go('login');
+                        Auth.$unauth();
+                    }
+                }, 1000);
+            }
         }
     }
 ]);
