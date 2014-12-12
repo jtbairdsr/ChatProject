@@ -8,10 +8,17 @@
  * Controller of the documentsApp
  */
 angular.module('chatApp')
-    .controller('AdminCtrl', ['$scope', '$state',
-        function($scope, $state) {
+    .controller('AdminCtrl', ['$scope', '$state', '$firebase', 'Auth',
+        function($scope, $state, $firebase, Auth) {
+            var messgeRef = $scope.ref.child('messages');
+            var sync = $firebase(messgeRef);
+            $scope.messages = sync.$asArray();
+            $scope.user = Auth.$getAuth();
+            if(!$scope.user.details.admin) {
+            	$state.go('chat');
+            }
             $scope.userAdmin = function() {
-            	$state.go('users');
+                $state.go('users');
             }
         }
     ]);
