@@ -2,7 +2,7 @@
  * @Author: jonathan
  * @Date:   2014-12-05 14:09:33
  * @Last Modified by:   jonathan
- * @Last Modified time: 2014-12-12 13:16:21
+ * @Last Modified time: 2014-12-15 11:33:41
  */
 
 angular.module('chatApp')
@@ -42,10 +42,27 @@ angular.module('chatApp')
                     });
             };
             $scope.addUser = function() {
+                var temp = $scope.newUser.fName + ' ' + $scope.newUser.lName;
                 auth.$createUser($scope.newUser.uName, $scope.newUser.password)
                     .then(function(user) {
+                        $alert({
+                            title: 'Success',
+                            content: temp + ' is now an authorized user of the system.',
+                            placement: 'top-right',
+                            duration: '3',
+                            type: 'success',
+                            show: true
+                        });
                         console.log('create user success');
                     }, function(error) {
+                        var nameChangeError = $alert({
+                            title: 'Error:',
+                            content: error.toString().split(':')[1],
+                            placement: 'top-right',
+                            duration: '3',
+                            type: 'danger',
+                            show: true
+                        });
                         console.log('create user failed' + error);
                     });
                 $firebase(usersRef).$set($scope.newUser.uName.split('@')[0], {

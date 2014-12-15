@@ -4,6 +4,7 @@
             <th>Disabled</th>
 
             <th>Username</th>
+            <th>Password</th>
             <th>First Name</th>
             <th>Last Name</th>
             <th>Admin</th>
@@ -17,6 +18,9 @@
             </td>
             <td>
                 <input type="email" class="form-control" data-ng-model="user.$id" disabled>
+            </td>
+            <td>
+                <input type="password" class="form-control" disabled placeholder="********">
             </td>
             <td>
                 <input type="text" class="form-control" data-ng-model="user.fName" data-ng-disabled="!user.edit">
@@ -43,6 +47,9 @@
                 </td>
                 <td>
                     <input type="email" placeholder="Email" class="form-control" data-ng-model="newUser.uName" required>
+                </td>
+                <td>
+                    <input type="password" class="form-control" data-ng-model="newUser.password" required placeholder="Password">
                 </td>
                 <td>
                     <input type="text" placeholder="First Name" class="form-control" data-ng-model="newUser.fName" required>
