@@ -2,7 +2,7 @@
 * @Author: jonathan
 * @Date:   2014-12-04 13:14:41
 * @Last Modified by:   jonathan
-* @Last Modified time: 2014-12-12 09:49:33
+* @Last Modified time: 2014-12-15 11:50:22
 */
 'use strict';
 
@@ -32,7 +32,7 @@ angular.module('chatApp')
                     $scope.messages.$add({
                         date: date.toString(),
                         text: text,
-                        user: $scope.user.password.email.split('@')[0]
+                        user: $scope.user.details.fName
                     });
                     $scope.newMessageText = undefined;
                 }
