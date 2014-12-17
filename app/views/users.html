@@ -41,31 +41,29 @@
             </td>
         </tr>
         <tr>
-            <form name="newUserForm" data-ng-submit="addUser()" novalidate>
-                <td>
-                    <input type="checkbox" class="form-control center-block" disabled data-ng-model="newUser.disabled">
-                </td>
-                <td>
-                    <input type="email" placeholder="Email" class="form-control" data-ng-model="newUser.uName" required>
-                </td>
-                <td>
-                    <input type="password" class="form-control" data-ng-model="newUser.password" required placeholder="Password">
-                </td>
-                <td>
-                    <input type="text" placeholder="First Name" class="form-control" data-ng-model="newUser.fName" required>
-                </td>
-                <td>
-                    <input type="text" placeholder="Last Name" class="form-control" data-ng-model="newUser.lName" required>
-                </td>
-                <td>
-                    <input type="checkbox" class="form-control center-block" data-ng-model="newUser.admin">
-                </td>
-                <td>
-                    <button type="submit" class="btn btn-success btn-xs">
-                        <span class="glyphicon glyphicon-plus"></span>
-                    </button>
-                </td>
-            </form>
+            <td>
+                <input type="checkbox" class="form-control center-block" disabled data-ng-model="newUser.disabled">
+            </td>
+            <td>
+                <input type="email" placeholder="Email" class="form-control" data-ng-model="newUser.uName" required>
+            </td>
+            <td>
+                <input type="password" class="form-control" data-ng-model="newUser.password" required placeholder="Password">
+            </td>
+            <td>
+                <input type="text" placeholder="First Name" class="form-control" data-ng-model="newUser.fName" required>
+            </td>
+            <td>
+                <input type="text" placeholder="Last Name" class="form-control" data-ng-model="newUser.lName" required>
+            </td>
+            <td>
+                <input type="checkbox" class="form-control center-block" data-ng-model="newUser.admin">
+            </td>
+            <td>
+                <button type="submit" class="btn btn-success btn-xs" data-ng-click="addUser()">
+                    <span class="glyphicon glyphicon-plus"></span>
+                </button>
+            </td>
         </tr>
     </tbody>
 </table>

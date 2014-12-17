@@ -1,11 +1,12 @@
+/*
+ * @Author: jonathan
+ * @Date:   2014-12-10 11:00:13
+ * @Last Modified by:   jonathan
+ * @Last Modified time: 2014-12-17 10:43:17
+ */
 'use strict';
 
 /**
- * @ngdoc overview
- * @name documentsApp
- * @description
- * # documentsApp
- *
  * Main module of the application.
  */
 var app = angular
@@ -23,8 +24,13 @@ var app = angular
         'mgcrea.ngStrap'
 
     ]);
+/**
+ * This sets up inportant variables and $scope watchers.
+ * it will always fire on the initial run of the app.
+ */
 app.run(['$rootScope', '$state', 'Auth', '$firebase', '$timeout',
     function($rootScope, $state, Auth, $firebase, $timeout) {
+        // a watcher to catch and unauthorized errors and redirect to the login view.
         $rootScope.$on("$stateChangeError", function(event, toState, toParams, fromState, fromParams, error) {
             // We can catch the error thrown when the $requireAuth promise is rejected
             // and redirect the user back to the home page
@@ -32,30 +38,36 @@ app.run(['$rootScope', '$state', 'Auth', '$firebase', '$timeout',
                 $state.go('login');
             }
         });
+        // a watcher that lets us rerun the getUser function every time a user moves to a new view.
         $rootScope.$on('getUser', function() {
             getUser();
         });
+        // add a basic ref to all the server data to $rootScope so we have access to it everywhere.
         $rootScope.ref = new Firebase("https://luminous-inferno-5021.firebaseIO.com");
+        // if the user is authenticated then we get the user details.
         if (Auth.$getAuth()) {
             getUser();
         }
 
+        // start defining the getUser function.
         function getUser() {
-            if ($rootScope.user === undefined) {
-                $rootScope.ref = new Firebase("https://luminous-inferno-5021.firebaseIO.com");
-                var user = Auth.$getAuth();
-                user.details = $firebase($rootScope.ref.child('users').child(user.password.email.split('@')[0])).$asObject();
-                $rootScope.user = user;
-            } else {
-                $timeout(function() {
-                    if ($rootScope.user.details.disabled) {
-                        console.log('user is disabled');
-                        $state.go('login');
-                        Auth.$unauth();
-                    }
-                }, 1000);
-            }
-        }
+                if ($rootScope.user === undefined) {
+                    // if we don't have a user in $scope yet then get one.
+                    $rootScope.ref = new Firebase("https://luminous-inferno-5021.firebaseIO.com");
+                    var user = Auth.$getAuth();
+                    user.details = $firebase($rootScope.ref.child('users').child(user.password.email.split('@')[0])).$asObject();
+                    $rootScope.user = user;
+                } else {
+                    // if we have a user then set a timeout to make sure all the details are back and check if the user is disabled.
+                    $timeout(function() {
+                        if ($rootScope.user.details.disabled) {
+                            // if the user is disabled unauthorize the user and send them to the login view.
+                            $state.go('login');
+                            Auth.$unauth();
+                        }
+                    }, 1000);
+                }
+            } // end getUser function.
     }
 ]);
 app.config(function($stateProvider, $urlRouterProvider) {
@@ -157,12 +169,6 @@ app.config(function($stateProvider, $urlRouterProvider) {
                 // ]
             }
         });
-
-    function checkForAuth(Auth) {
-        // $requireAuth returns a promise so the resolve waits for it to complete
-        // If the promise is rejected, it will throw a $stateChangeError (see above)
-        return Auth.$requireAuth();
-    }
 });
 // Authentication Factory so we don't have to do this everytime we want to check authentication.
 app.factory("Auth", ["$firebaseAuth",
@@ -181,6 +187,7 @@ app.controller('NavCtrl', ['$scope', 'Auth',
     }
 ]);
 
+// a filter that will only show messages from the last 24 hours.
 app.filter('today', function() {
     return function(items) {
         var filteredItems = [];
@@ -193,25 +200,7 @@ app.filter('today', function() {
     }
 });
 
-
-
-app.filter('truncate', function() {
-    return function(text, length, end) {
-        if (isNaN(length))
-            length = 10;
-
-        if (end === undefined)
-            end = "...";
-
-        if (text.length <= length) {
-            return text;
-        } else {
-            return String(text).substring(0, length) + end;
-        }
-
-    };
-});
-
+// this filter takes the queries from admin messages and uses them to sort the data.
 app.filter('adminMessages', function() {
     return function(items, dateSearch, textSearch, userSearch) {
         var filteredItems = [];
@@ -263,7 +252,6 @@ app.filter('adminMessages', function() {
         });
         if (flag) {
             filteredItems = items;
-            console.log(filteredItems);
         }
         return filteredItems;
     }
